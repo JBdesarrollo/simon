@@ -415,14 +415,20 @@ ion-button {
   }
 
   .teclasSimon {
-    width: 130px;
-    height: 130px;
+    width: 10rem;
+    height: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   ion-button {
-    margin-top: 1rem;
+    margin-top: 2rem;
+    max-width: 40%;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  ion-chip {
+    font-size: 1.2rem;
   }
   .do {
     border-top-left-radius: 100%;
